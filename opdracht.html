@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Schagen</title>
+        <style>
+            #content{
+                margin-top: 20px;
+            }
+
+            [class*="col-"] {
+            width: 100%;
+            }
+            @media only screen and (min-width: 768px) {
+            [class*="col-"] {
+            float: left;
+            padding: 15px;
+            }
+            }
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+
+            .header{
+                font-family: 'Merriweather', serif;
+                font-size: 120px;
+                text-align: center;
+                background-image: url(afbeelding/kerk.jpg);
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 180px;
+        
+            }
+
+            img{
+                float: right;
+                max-width: 15%;
+                height: auto;
+                display: block;
+            }
+
+            .footer{
+                width: 100%;
+                min-height: 200px;
+                text-align: center;
+                display: block;
+            }
+
+            #een{
+                min-height: 300px;
+            }
+
+            #twee{
+                min-height: auto;
+            }
+
+            #drie{
+                min-height: 400px;
+                clear: fixed;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <div class="header">Schagen
+            </div>
+                <div class="row">
+                    <div class="col-2">
+                        <section id="een">
+                            <ul>
+                                <li>Stadsrechten</li>
+                                <li>Fusiegemeenten</li>
+                                <li>Ruim 19.000 inwoners</li>
+                                <li>Ridder Magnus</li>
+                                <li>Veemarkt</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="col-9">
+                        <section id="twee">
+                            <div>
+                                <img src="afbeelding/popweekend.jpg" alt="popweekend">
+                                <h2>Popweekend</h2>
+                                <p>Popweekend Schagen is één van de hoogtepunten op de evenementenkalender van de Stichting Evenementen Schagen.
+                                   Een gratis Popfestival in Schagen met bekende toppers maar ook veel regio-talenten met bands en artiesten voor jong en oud. Dit alles speelt zich af op twee podia op de Markt  rondom de kerk in Schagen. Op vrijdag is altijd de aftrap met Binnenpop in en rondom de vele horecagelegenheden.</p>
+                            </div>
+                            <div>
+                                <img src="afbeelding/optocht.jpg" alt="optocht">
+                                <h2>Westfriese Markt met optocht</h2>
+                                <p>In Schagen Marktstad kun je iedere donderdag terecht op de weekmarkt. Een begrip in de regio en altijd gezellig. De leukste marktkramen met onder meer typisch West-Friese producten staan ruim opgesteld. Bezoekers hebben voldoende ruimte om lekker te neuzen en afstand te houden. Je vindt de markt op de Gedempte Gracht, Markt en Nieuwstraat van Schagen. In de zomerse weken is de reguliere markt groter. Elke donderdag tussen 08:45 en 13:00 uur, in het zomerseizoen eindigt de markt rond 14:30 uur.</p>
+                            </div>
+                        </section>
+                    </div>
+                    <div>
+                        <section id="drie">
+                        </section>
+                    </div>
+                </div>
+            <div class="footer">Website gemaakt door Mark
+            </div>   
+        </div>
+    </body>
+</html>
